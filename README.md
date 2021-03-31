@@ -31,4 +31,4 @@
 .9 Adamax
 .10 SMORMS3
 
-### .1 Gradient Descent (GD) ###:
+### .1 Gradient Descent (GD):

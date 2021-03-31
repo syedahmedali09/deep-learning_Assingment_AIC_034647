@@ -20,7 +20,7 @@
 
 # TYPES OF OPTIMIZERS #
 
-#.1 Gradient Descent (GD)#
+.1 Gradient Descent (GD)
 
 .2 Stochastic Gradient Descent.
 

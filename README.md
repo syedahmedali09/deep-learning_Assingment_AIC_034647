@@ -33,3 +33,5 @@
 .6 Adagrad.
 
 .7 RMSProp.
+
+###.1Gradient Descent (GD)###

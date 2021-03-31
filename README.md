@@ -34,4 +34,4 @@
 
 .7 RMSProp.
 
-##.1 Gradient Descent (GD)##
+### .1 Gradient Descent (GD) ###

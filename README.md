@@ -20,18 +20,15 @@
 
 # TYPES OF OPTIMIZERS #
 
-.1 Gradient Descent (GD)
+.1 Stochastic Gradient descent
+.2 Stochastic Gradient descent with gradient clipping
+.3 Momentum.
+.4 Nesterov momentum
+.5 Adagrad
+.6 Adadelta
+.7 RMSProp
+.8 Adam
+.9 Adamax
+.10 SMORMS3
 
-.2 Stochastic Gradient Descent.
-
-.3 Mini-Batch Gradient Descent.
-
-.4 Momentum Based Gradient Descent.
-
-.5 Nesterov Accelerated Gradient (NAG)
-
-.6 Adagrad.
-
-.7 RMSProp.
-
-### .1 Gradient Descent (GD) ###
+### .1 Gradient Descent (GD) ###:

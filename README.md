@@ -41,4 +41,8 @@
 
 .10 SMORMS3
 
-### .1 Gradient Descent (GD):
+### .1 Stochastic Gradient Descent (GD):
+                                        Stochastic gradient descent (often abbreviated SGD) is an iterative method for optimizing an objective function with suitable smoothness properties (e.g. differentiable or subdifferentiable). It can be regarded as a stochastic approximation of gradient descent optimization.
+					
+### .2 Stochastic Gradient descent with gradient clipping:
+                                                          Gradient clipping is a technique to prevent exploding gradients in very deep networks, usually in recurrent neural networks.With gradient clipping, pre-determined gradient threshold be introduced, and  then gradients norms that exceed this threshold are scaled down to match the norm.

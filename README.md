@@ -11,7 +11,7 @@
    ###### bedding network learn an explicit shared latent embedding space with a maximum-margin ranking loss and novel neighborhood constraints. Compared to standard triplet sampling, we perform improved neighborhood sampling that takes neighborhood information into consideration while constructing mini-batches.
 		    
 		    
-## ***.2 Matching network:***
+***.2 Matching network:***
   ###### Referred to as a similarity network, fuses the two branches via element-wise product and is trained with regression loss to directly predict a similarity score.
 						   
 						   

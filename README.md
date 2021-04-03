@@ -12,7 +12,7 @@
 		    
 		    
 **.2 Matching network:**
-   # Referred to as a similarity network, fuses the two branches via element-wise product and is trained with regression loss to directly predict a similarity score.#
+  ###### Referred to as a similarity network, fuses the two branches via element-wise product and is trained with regression loss to directly predict a similarity score.#
 						   
 						   
 ***Inception block:***

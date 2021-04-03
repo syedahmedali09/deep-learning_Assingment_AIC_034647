@@ -1,6 +1,6 @@
 
 ***Multihead Network:***
-                        ####A multi-head deep learning model with multiple classification or output heads. Each of the output heads has a different number of output features corresponding to the number of categories in each label.####
+                        # A multi-head deep learning model with multiple classification or output heads. Each of the output heads has a different number of output features corresponding to the number of categories in each label. #
 		     
 		     
 ***Two branch network (Two Branch Neural Networks):***

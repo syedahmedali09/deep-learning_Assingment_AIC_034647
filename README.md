@@ -5,7 +5,7 @@
 		     
 ***Two branch network (Two Branch Neural Networks):***
                                                 
-						##Two branch network use for image matching task. It have two network. First embedding network and matching network structure.##
+						## Two branch network use for image matching task. It have two network. First embedding network and matching network structure. ##
 						
 						
 **.1 Embedding network:**

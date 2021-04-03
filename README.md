@@ -1,12 +1,11 @@
 
 ***Multihead Network:***
-                    
-		    A multi-head deep learning model with multiple classification or output heads. Each of the output heads has a different number of output features corresponding to the number of categories in each label.
+                        #####A multi-head deep learning model with multiple classification or output heads. Each of the output heads has a different number of output features corresponding to the number of categories in each label.#####
 		     
 		     
 ***Two branch network (Two Branch Neural Networks):***
                                                 
-						Two branch network use for image matching task. It have two network. First embedding network and matching network structure.
+						#####Two branch network use for image matching task. It have two network. First embedding network and matching network structure.#####
 						
 						
 **.1 Embedding network:**

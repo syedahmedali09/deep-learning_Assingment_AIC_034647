@@ -3,7 +3,7 @@
   ###### A multi-head deep learning model with multiple classification or output heads. Each of the output heads has a different number of output features corresponding to the number of categories in each label.
 		     
 		     
-***Two branch network (Two Branch Neural Networks):***
+## ***Two branch network (Two Branch Neural Networks):***
    ###### Two branch network use for image matching task. It have two network. First embedding network and matching network structure. 
 						
 						
@@ -15,7 +15,7 @@
   ###### Referred to as a similarity network, fuses the two branches via element-wise product and is trained with regression loss to directly predict a similarity score.
 						   
 						   
-***Inception block:***
+## ***Inception block:***
 		      
    ###### An Inception Module is an image model block that aims to approximate an optimal local sparse structure in a CNN. Put simply, it allows for us to use multiple types of filter size, instead of being restricted to a single filter size, in a single image block, which we then concatenate and pass onto the next layer.
 

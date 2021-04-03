@@ -4,13 +4,12 @@
 		     
 		     
 ***Two branch network (Two Branch Neural Networks):***
-                                                
-						# Two branch network use for image matching task. It have two network. First embedding network and matching network structure. #
+                                                # Two branch network use for image matching task. It have two network. First embedding network and matching network structure. #
 						
 						
 **.1 Embedding network:**
                     
-		    Embedding network learn an explicit shared latent embedding space with a maximum-margin ranking loss and novel neighborhood constraints. Compared to standard triplet sampling, we perform improved neighborhood sampling that takes neighborhood information into consideration while constructing mini-batches.
+		    *mbedding network learn an explicit shared latent embedding space with a maximum-margin ranking loss and novel neighborhood constraints. Compared to standard triplet sampling, we perform improved neighborhood sampling that takes neighborhood information into consideration while constructing mini-batches.*
 		    
 		    
 **.2 Matching network:**

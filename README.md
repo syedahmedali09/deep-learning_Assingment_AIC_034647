@@ -39,8 +39,6 @@
 
 .9 Adamax
 
-.10 SMORMS3
-
 ### .1 Stochastic Gradient Descent (GD):
    ###### Stochastic gradient descent (often abbreviated SGD) is an iterative method for optimizing an objective function with suitable smoothness properties (e.g. differentiable or subdifferentiable). It can be regarded as a stochastic approximation of gradient descent optimization.
 					
@@ -58,4 +56,18 @@ v
   ##### Third: Gradient Descent with Nesterov Momentum
   
   ### .5 Adagrad:
-  ###### Adagrad is an optimizer with parameter-specific learning rates, which are adapted relative to how frequently a parameter gets updated during training. The more updates a parameter receives, the smaller the updates.
+  ###### Adagrad is an optimizer with parameter-specific learning rates, which are adapted relative to how frequently a parameter gets updated during training. The more updates a parameter receives, the smaller the updates. 
+  
+ ### .6 Adadelta :
+ ###### Adadelta is a more robust extension of Adagrad that adapts learning rates based on a moving window of gradient updates, instead of accumulating all past gradients. This way, Adadelta continues learning even when many updates have been done
+ 
+ ### .7 RMSProp:
+ ###### Maintain a moving (discounted) average of the square of gradients.Divide the gradient by the root of this average.This implementation of RMSprop uses plain momentum, not Nesterov momentum.The centered version additionally maintains a moving average of the gradients, and uses that average to estimate the variance.
+ 
+### .8 Adam:
+###### Implements the Adam optimization algorithm. Adam is a stochastic gradient descent method that computes individual adaptive learning rates for different parameters from estimates of first- and second-order moments of the gradients.
+
+### 9. Adamax:
+###### Optimizer that implements the Adamax algorithm. It is a variant of Adam based on the infinity norm. Default parameters follow those provided in the paper. Adamax is sometimes superior to adam, specially in models with embeddings.
+
+

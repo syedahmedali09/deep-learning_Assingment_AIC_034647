@@ -27,7 +27,6 @@
 
 .3 Momentum.
 
-
 .4 Nesterov momentum
 
 .5 Adagrad
@@ -43,7 +42,20 @@
 .10 SMORMS3
 
 ### .1 Stochastic Gradient Descent (GD):
-                                        Stochastic gradient descent (often abbreviated SGD) is an iterative method for optimizing an objective function with suitable smoothness properties (e.g. differentiable or subdifferentiable). It can be regarded as a stochastic approximation of gradient descent optimization.
+   ###### Stochastic gradient descent (often abbreviated SGD) is an iterative method for optimizing an objective function with suitable smoothness properties (e.g. differentiable or subdifferentiable). It can be regarded as a stochastic approximation of gradient descent optimization.
 					
 ### .2 Stochastic Gradient descent with gradient clipping:
-                                                          Gradient clipping is a technique to prevent exploding gradients in very deep networks, usually in recurrent neural networks.With gradient clipping, pre-determined gradient threshold be introduced, and  then gradients norms that exceed this threshold are scaled down to match the norm.
+   ###### Gradient clipping is a technique to prevent exploding gradients in very deep networks, usually in recurrent neural networks.With gradient clipping, pre-determined gradient threshold be introduced, and  then gradients norms that exceed this threshold are scaled down to match the norm.
+   
+ ### .3 Momentum:
+   ###### Momentum is essentially a small change to the SGD parameter update so that movement through the parameter space is averaged over multiple time steps. This is done by introducing a velocity component 
+v
+. Momentum speeds up movement along directions of strong improvement (loss decrease) and also helps the network avoid local minima. It is intuitively related to the concept of momentum in physics.
+### .4 Nesterov momentum:
+  ###### Momentum and Nesterov Momentum (also called Nesterov Accelerated Gradient/NAG) are slight variations of normal gradient descent that can speed up training and improve convergence significantly. it work on three stepes.
+  ##### First: Gradient Descent
+  ##### Second: Gradient Descent with Momentum
+  ##### Third: Gradient Descent with Nesterov Momentum
+  
+  ### .5 Adagrad:
+  ###### Adagrad is an optimizer with parameter-specific learning rates, which are adapted relative to how frequently a parameter gets updated during training. The more updates a parameter receives, the smaller the updates.
